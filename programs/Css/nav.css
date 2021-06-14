@@ -1,0 +1,61 @@
+/*Initially margin and padding is set to 0 to all the tag*/
+*{
+	margin: 0;
+	padding: 0;
+}
+/*This will give the transparent background of the nav section.*/
+
+nav{
+	background-color: transparent;
+	width: 100%;
+	height: 40px;
+}
+
+/*It is to customize the table of  */
+nav ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 10px;
+	padding: 0;
+	overflow: hidden;  /*This will set the */
+}
+/* it will give the start the text of the navigation from left*/
+nav ul li{
+	float: left;
+}
+
+/*
+This will help get the list of all the text of navigation bar in movement form(ease-in), it won't give the line below any link.*/
+nav ul li a {
+	color: #fff;
+	display: inline;
+	margin-top: 15px;
+	font-size: 18px;
+	padding: 30px;
+	text-decoration: none;
+	transition: .3s ease-in;  /*This will give the proper transition when home page is opened*/
+}
+/*changes after hovering the element of the navigation bar*/
+nav ul li .active, 
+nav ul li a:hover{
+	color: gold;
+	border: none;
+	border-right: 1px solid gold;
+	transition: .3s ease-out;
+}
+
+footer {
+	position: absolute;
+	left: 50%;
+	bottom: 0;
+	transform: translate(-50%);
+	background-color: black;
+	width: 100%;
+	height: 38px;
+
+}
+footer p {
+	text-align: center;
+	color: #fff;
+	margin-top: 10px;
+}

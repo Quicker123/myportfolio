@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home page</title>
+	<!-- these are the tags used to determine the hidden data -->
+	<meta charset="utf-8" />
+	<meta name ="description" content= "This is the portfolio of Roshan Budhathoki"/>
+	<meta name="Keywords" content="HTML, CSS" />
+	<meta name = "author"  content= "Roshan Budhathoki" />
+
+	<!-- <link> tage is used  here to link the css -->
+	<link rel="stylesheet" type="text/css" href="../css/nav.css">
+	<link rel="stylesheet" type="text/css" href="../Css/Home.css">
+	<style type="text/css">
+
+		body{
+			background: url(../image/home.jpg);
+			background-size: cover; /*to maintain automatic width and height of background image*/
+		}
+	</style>	
+</head>
+<body>
+	<!-- navigation bar-->
+<nav>	
+<ul>
+	<li><a href="home.html" class="active">Home</a></li>
+	<li><a href="CV.html">CV</a></li>
+	<li><a href="research.html">Research</a></li>
+	<li><a href="blog.html">Blog</a></li>
+	<li><a href="contact.html">Contact</a></li>
+
+</ul>
+</nav>
+<div class="text">
+	<h1>Hi there, I am Roshan Budhathoki</h1><br>
+	<p style="text-align: center;">Do you want to travel?<br>
+	</p>
+
+	<center>
+		<!-- This button link the page to the CV section -->
+		<form action="CV.html">
+		<input type="submit" value="Explore Me" class="btn">
+    </form>
+    </center>
+
+</div>
+<div class="icon">
+	<img src="../image/icon.jpg" alt="This is the photo of Roshan Budhathoki" 
+	style="border-radius: 50%; /*this helps to get the boder of image in circular shape*/
+	height: 170px;
+	position: absolute;/*free to transform*/
+	top: 28%;
+	left: 74%;
+	transform: translate(-50%, -50%); /*helps to get content in center*/
+	">	
+</div>
+<footer>
+<p>	&copy; Roshan Budhathoki</p>
+</footer>
+</body>
+</html>
+

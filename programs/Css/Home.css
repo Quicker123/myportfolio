@@ -1,0 +1,40 @@
+/*these are used to maintain the  position of the div section that contain div */
+.text{
+	box-sizing: border-box;
+	position: absolute;
+	top: 50%;
+	left: 40%;
+	transform: translate(50%,-50%);
+	border: none;
+	border-radius: 20px;
+	padding: 20px;
+	background-color: transparent;
+	border-bottom: 1px solid whitesmoke;
+	border-right: 1px solid whitesmoke;
+
+}
+.text p{
+	font-size:30px;
+	font-family: Bickham Script Pro;
+	color: gold;
+}
+/*changing the text color*/
+.text h1{
+	color: gold;
+}
+.text .btn{
+	background: transparent;
+	color:whitesmoke;
+	padding: 10px;
+	margin-top: 10px; 
+	border-radius: 20px;
+	transition: .3s ease-in; /*This will give the smooth flow button while opening the home page*/
+	border-color: white;
+	outline: none;
+}
+/*This will help to get text in black color with golden background when ease-out*/
+.btn:hover{
+	background: gold;
+	color: black;
+	transition:.3s ease-out;
+}

@@ -1,0 +1,56 @@
+body{
+	background: url(../image/contact.jpg);
+	background-size: cover;
+}
+/*this will help to change content of div container that contain contact*/
+.contact {
+	 position: absolute;
+	 top: 50%;
+	 left: 50%;
+	 box-shadow: 0 0 10px gold;
+	 padding: 42px;
+	 background:rgba(0,0,0,.6); /*this will help to get the transparent black background*/
+	 border-radius: 20px;
+	 transform: translate(-50%, -50%);
+	 box-sizing: border-box;
+	 width: 600px;
+}
+/*this will give the gold color on line.*/
+.input {
+	background-color: transparent;
+	border:none;
+	line-height: 20px;
+	border-bottom:1px solid gold;
+	width: 100%;
+	color: #fff;
+	height: 30px;
+	outline: none;
+}
+/*this will get the text on white.*/
+.input:focus{
+	border-bottom:1px solid white;
+	color: gold;
+}
+::placeholder
+{
+	color: white;
+}
+.buttons{
+	outline: none;
+	color: white;
+	padding: 5px;
+	line-height: 30px;
+	background-color: transparent;
+	border:1px solid white;
+	width: 26%;
+	border-radius: 14px;
+	cursor: pointer;
+	transition: .3s ease-out;
+}
+.buttons:hover{
+	color: gold;
+	border:1px solid gold;
+	background-color: gold;
+	color: #000;
+	transition: .3s ease-in;
+}

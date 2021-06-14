@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Blog</title>
+	<meta charset="utf-8">
+	<meta name="description" content="Contact page of this website" />
+	<meta name="Keywords" content="HTML, CSS, Js" />
+	<meta name="aurthor" content="Roshan Budhathoki" />
+
+	<!-- This is to link the external css -->
+
+	<link rel="stylesheet" type="text/css" href="../css/nav.css">
+	<link rel="stylesheet" type="text/css" href="../css/Contact.css">
+	<!-- this is to link external js -->
+	<script src ="../Js/form.js"></script>
+	<style type="text/css">
+		.text{
+			color: #fff;
+			background: #000;
+			padding-top: 10px;
+		}
+	</style>
+</head>
+<body>
+
+<nav>	
+<ul>
+	<li><a href="home.html" >Home</a></li>
+	<li><a href="CV.html" >CV</a></li>
+	<li><a href="research.html">Research</a></li>
+	<li><a href="blog.html" >Blog</a></li>
+	<li><a href="contact.html" class="active">Contact</a></li>
+
+</ul>
+</nav>
+<!-- This is the form section -->
+<form name="form" onsubmit="return change()">
+	<div class="contact">
+		<!-- this will get the input box to get the data from user -->
+	<input type="text" name ="name" placeholder="Full Name" class="input"><br><br>
+	<input type="Email" name ="Email" placeholder="Email" class="input"><br><br>
+	<input type="text" name ="Subject" placeholder="Subject" class="input"><br><br>
+	<textarea class="input" name = "Your Message" placeholder="Your Message"></textarea><br><br>
+	<p align="right"><input type="submit" class="buttons" name ="submit" value="Contact Me"></p>
+	</div>
+</form>
+<footer>
+	<center>
+	<table class="text">
+		<tr>
+			<td>
+				&copy; Roshan Budhathoki
+			</td>
+		</tr>
+	</table>
+	</center>
+</footer>
+</body>
+</html>

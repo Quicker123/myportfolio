@@ -1,0 +1,21 @@
+.heading{
+	font-size:40px;
+	margin-bottom: 0px;
+}
+.name{
+	width: 60%;
+	margin: 60px 60px;
+	box-shadow: 0 0 10px gold; /*This is to get the glow at the border of box.*/
+	color: gold;	
+}
+.small-heading{
+	color: gold;
+	font-size: 14px;
+}
+.name p{
+	color: coral;
+	text-align: justify; /*this will help to get the contain on proper format.*/
+	padding: 40px;
+	justify-content: all;
+	line-height: 1.5;
+}
